@@ -1,0 +1,249 @@
+@import url('https://fonts.googleapis.com/css2?family=Andika&family=Poppins&display=swap');
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    
+}
+body{
+    font-family: 'Andika', sans-serif;
+    font-family: 'Poppins', sans-serif; 
+}
+
+nav{
+    background-color: rgba(196, 201, 232, 0.2);
+}
+
+.container{
+    width: 85%;
+    margin: auto;
+    margin-bottom: 100px;
+}
+/* navbar style */
+
+.navbar{
+    padding: 10px 0px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.links{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+.link{
+    font-weight: bold;
+    display: inline-block;
+    text-decoration: none;
+    padding: 10px;
+    color: rgb(48, 48, 48);
+
+}
+.link:hover{
+    color: #3F51B5;
+}
+
+.trial_btn{
+    margin-left: 60px;
+}
+
+.btn{
+    outline: none;
+    border: 2px solid rgba(196, 201, 232, 0.2);
+    font-size: 1.2rem;
+    font-weight: bold;
+    padding: 10px 30px;
+    border-radius: 10px;
+    color: white;
+    background-color: #3F51B5;
+}
+.btn:hover{
+    color: #3F51B5;
+    background-color: rgba(196, 201, 232, 0.2);
+    border: 2px solid#3F51B5;
+}
+
+.banner1 img{
+   width: 80%;
+}
+
+header{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    justify-content: center;
+}
+.head h1{
+    font-size: 3vw;
+}
+
+.heading_green{
+    color: #001aff;
+}
+
+.heading p{
+    margin: 40px 0px;
+}
+.title{
+    font-size: large;
+    font-weight: bold;
+    text-align: center;
+    color: #001aaf;
+}
+
+.services{
+    display: grid;
+    grid-template-columns: repeat(4,1fr);
+    text-align: center;
+}
+.service{
+    padding: 30px;
+    margin: 10px;
+    border-radius: 10px;
+    box-shadow: rgba(14, 30, 37, 0.12) 0px 2px 4px 0px, rgba(14, 30, 37, 0.32) 0px 2px 16px 0px;
+}
+.service a{
+    display: inline-block;
+    text-decoration: none;
+    margin-top: 30px;
+}
+.fa-arrow-right-long{
+    color: #001aaf; 
+}
+.fa-star{
+    color: rgb(255, 196, 0);
+}
+.icon{
+    padding-bottom: 30px;
+    font-size: 2rem;
+    color: #001aaf;
+}
+.why_choose{
+    display: grid;
+    grid-template-columns:repeat(2,2fr);
+    align-items: center;
+    justify-content: center;
+}
+.qualities{
+    margin-top: 30px;
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+}
+.quality{
+    padding: 20px;
+    margin: 10px;
+    border-radius: 10px;
+    box-shadow: rgba(14, 30, 37, 0.12) 0px 2px 4px 0px, rgba(14, 30, 37, 0.32) 0px 2px 16px 0px;
+    display: flex;
+    flex-direction: row;
+}
+.quality_info{
+    padding-left: 30px;
+}
+
+.solutions{
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    align-items: center;
+}
+.solution{
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    align-items: center;
+    justify-content: space-between;
+}
+
+.solution_img img{
+    width: 80%;
+}
+
+.customer_feedback{
+    background-color: rgba(196, 201, 232, 0.5);
+    padding: 30px;
+    border-radius: 20px;
+    
+    
+}
+.feedback{
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    align-items: center;
+    justify-items:center;
+}
+.plans{
+    display: grid;
+    grid-gap: 30px;
+    grid-template-columns: repeat(3,1fr);
+    justify-items: center;
+    align-items: center;
+}
+.plan{
+    padding: 60px;
+    border-radius: 20px;
+    box-shadow: rgba(196, 201, 232) 0px 10px 30px;
+}
+.features{
+    padding:30px 0px;
+}
+.fa-circle-check{
+    color:blue;
+    padding-right: 8px;
+}
+
+.join{
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    align-items: center;
+    justify-items: center;
+}
+.about_us{
+    margin: 30px 0px;
+}
+.about{
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    align-items: center;
+    justify-items: center;
+}
+.devider{
+    width: 100%;
+    height: 1px;
+    background-color: #001aaf;
+    margin: auto;
+}
+
+footer{
+    padding: 50px 30px;
+    background-color: #9cabff;
+}
+
+.social{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    align-items: center;
+    justify-items: center;
+}
+.social_icon{
+    display: flex;
+    flex-direction: row;
+}
+.social_icon div{
+    padding: 10px;
+}
+
+/* 
+common styles
+*/
+
+.common_head{
+    font-size: 2vw;
+    margin: 30px 0px;
+    text-align: center;
+}
+
+.banner_img img{
+    width: 80%;
+}
